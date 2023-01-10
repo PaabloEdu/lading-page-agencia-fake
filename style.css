@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2? family= Cinzel:wght@400;500 & family= Dancing+Script:wght@400;500;600 & family= Righteous & family= Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900 & family= Sarala & family= Sevillana & display=swap');
+
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+   }
+
+   body {
+        font-size: 100%;
+        font-family: 'Roboto', sem serifa;
+       
+   }
+
+   .cabeçalho {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+                padding: 30px;
+   }
+
+   .cabeçalho-image {
+        height: 72px;
+   }
+
+   .cabeçalho-menu {
+        display: flex;
+        gap: 32px;/*espaçamento do menu*/
+   }
+
+   .cabeçalho-menu-item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+       font-family: 'Sarala', sans-serif;
+        color: #A0CCF2;
+        font-weight: 400px;
+        font-size: 18px;
+
+   }
+
+   /*botao*/
+
+   .cabeçalho-menu-botao {   
+     background-image: linear-gradient(to left, #BF11A2, #040959) ;
+     width: 110px;
+     height:40px;
+      border: none;
+     border-radius: 20px;
+     font-weight: 300px;
+     font-size: 18px;
+     color: rgb(255, 255, 255);
+                
+    
+}
+
+.contact-btn {
+    padding: 10px;
+    margin: 25px;
+     
+     background-color:#A0CCF2 ;
+     width: 150px;
+     height:60px;
+     border-radius: none;
+     box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+     border-radius: 20px;
+     font-weight: 400px;
+     font-size: 24px;
+     color: rgb(15, 12, 12);
+     
+}
+
+.contact-btn:hover {
+     border: none;
+     background: #70b6f3;
+ }
+
+/*head*/
+
+.conteudo {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: center;
+     align-items: center;
+     /*border: 1px solid #BF11A2;*/
+      padding: 50px;
+      background: rgb(249, 255, 249);
+ }
+ 
+ .conteudo-principal {
+       flex: 40%;
+       margin-left: 5px;
+       
+ }
+
+ .conteudo-principal h2 {
+     font-weight: 900;
+     font-size: 20px;
+     color: #A0CCF2;
+     padding: 5%;
+     margin: 0;
+    /* border: 1px solid #040959;*/
+}
+
+.conteudo-principal p {
+     padding: 5%;
+     color: gray;
+     text-align: left;
+     /*border: 1px solid #00911f;*/
+     text-align:left;
+}
+
+.img-conteudo {
+     margin: 10px;
+     /*border: 1px solid #040959;*/
+
+}
+
+.img {
+     width: 600px;
+
+}
+
